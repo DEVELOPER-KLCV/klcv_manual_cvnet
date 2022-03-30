@@ -49,25 +49,25 @@ last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https:/
 #gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 
 #### Collection ####
-collections_dir: "DOCS"
-collections:
-  api:
-    permalink: "/:collection/:path/"
-    output: true
-  docs:
-    permalink: "/:collection/:path/"
-    output: true
+# collections_dir: "DOCS"
+# collections:
+#   api:
+#     permalink: "/:collection/:path/"
+#     output: true
+#   docs:
+#     permalink: "/:collection/:path/"
+#     output: true
 
-just_the_docs:
-  collections:
-    api:
-      name: manual_api
-      nav_exclude: false
-      search_exclude: true
-    docs:
-      name: manual_docs
-      nav_exclude: false
-      search_exclude: true
+# just_the_docs:
+#   collections:
+#     api:
+#       name: manual_api
+#       nav_exclude: false
+#       search_exclude: true
+#     docs:
+#       name: manual_docs
+#       nav_exclude: false
+#       search_exclude: true
 
 #### EXCLUDE ####
 exclude:
